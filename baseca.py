@@ -8,10 +8,10 @@ class baseca(object):
 		self.__n = arg2
 		self.__arr1 = {}
 		self.__arr2 = {}
-		for i in __m:
-			for j in __n:
+		for i in xrange(__m):
+			for j xrange(__n):
 				__arr1[(__m,__n)] = 0
 				__arr2[(__m,__n)] = 0
 	def __checkmn(self, arg1,arg2):
-		
+
 		
